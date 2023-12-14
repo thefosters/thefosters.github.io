@@ -1,0 +1,46 @@
+body{
+  --colut-pri: #efaafd;
+  --cole-der-pri: #be60b1;
+  --coly-lig-pri: #d6c2c4;
+  --coly-lig-sex: #ff0000;
+  --wight: #ffffff;
+  --bordfer: 4px;
+  display: flex;
+  margin: 0;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  background: #380d52;
+}
+h1{ 
+  color: #ffffff;
+}
+p{ 
+  color: #ffffff;
+}  
+  
+  
+.mainscreen{
+  width: 250px;
+  max-width: 1000px;
+  margin: 1rem;
+  padding: 2rem;
+  box-shadow: 0 0 40px rgba(255,255,255,0.2);
+
+
+}
+  
+.Contan{
+  width: 80%;
+  margin: 1rem;
+  padding: 2rem;
+  box-shadow: 0 0 40px rgba(255,255,255,0.2);
+  opacity: 85%;
+  background: #000000;
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+}
+
+  
