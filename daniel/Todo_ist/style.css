@@ -12,7 +12,6 @@ body {
 #taskList {
     list-style-type: none;
     padding: 0;
-    width: 90%;
 }
 
 .taskItem {
@@ -21,7 +20,7 @@ body {
     border: 1px solid #ddd;
     margin: 5px 0;
     padding: 10px;
-    width: 90%;
+    width: 100%;
 }
 
 .deleteButton {
