@@ -11,15 +11,15 @@ body {
 #taskList {
     list-style-type: none;
     padding: 0;
+    width: 100%;
 }
 
 .taskItem {
     display: flex;
     justify-content: space-between;
-    border: 1px solid #ddd;
     margin: 5px 0;
     padding: 10px;
-    width: 100%;
+    width: 98%;
 }
 
 .deleteButton {
@@ -30,6 +30,7 @@ body {
     cursor: pointer;
     float: right;
 }
+
 
 
 
