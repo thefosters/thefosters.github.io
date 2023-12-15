@@ -1,19 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
+    <!--Do not delet-->
+      <script src = "/js/chech.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src = "js/chech.js"></script>
     <title>Fosters</title>
+    <!--This is the nav bar styling-->
+      <link rel="stylesheet" href="/css/nav.css">
+    <link rel="stylesheet" href="/css/cool_background.css">
     <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h2>To-Do List</h2>
-    <input type="text" id="taskInput" placeholder="New task">
-    <button onclick="addTask()">Add Task</button>
-    <script src = "script.js" ></script>
-    <ul id="taskList"></ul>
-
-
-</body>
+  </head>
+  <body>
+    <div class="background">
+      <div class = "contanory">
+        <!--This is the nav bar-->
+           <ul>
+             <li><a href="/home.html">Home</a></li>
+             <li><a href="/daniel/index.html">Daniel</a></li>
+             <li><a class="active" href="/nathan/index.html">Nathan</a></li>
+             <li><a href="/jo/index.html">Jo</a></li>
+             <li><a href="/howard/index.html">Howard</a></li>
+             <li class="right"><a href="/logout.html">Logout</a></li>
+          </ul>
+          <br>
+          <br>
+          <h2>To-Do List</h2>
+           <input type="text" id="taskInput" placeholder="New task">
+           <button onclick="addTask()">Add Task</button>
+           <script src = "script.js" ></script>
+           <ul id="taskList"></ul>
+        </div>
+    </div>
+    <script src="/js/coolbackground.js"></script>
+  </body>
 </html>
