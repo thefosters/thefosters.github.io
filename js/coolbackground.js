@@ -13,7 +13,7 @@ function darkmode(){
   var darkb = document.getElementById("dark");
   var lightb = document.getElementById("light");
   document.querySelector('.contanory').style.backgroundColor = "#000";
-  document.querySelector('.contanory').style.Color = "#fff";
+  document.querySelector('.contanory').style.color = "#fff";
   darkb.classList.add("hiden");
   lightb.classList.remove("hiden");
   clearInterval(coolbackground2)
@@ -39,7 +39,7 @@ if (coolbackground != "no"){
 if(coolbackground == "no"){
   document.querySelector('.background').style.backgroundColor = "#000";
   document.querySelector('.contanory').style.backgroundColor = "#000";
-  document.querySelector('.contanory').style.Color = "#fff";
+  document.querySelector('.contanory').style.color = "#fff";
   var darkb = document.getElementById("dark");
   var lightb = document.getElementById("light");
   darkb.classList.add("hiden");
