@@ -25,6 +25,7 @@ function lightmode(){
   var darkb = document.getElementById("dark");
   var lightb = document.getElementById("light");
   document.querySelector('.contanory').style.backgroundColor = "rgba(255, 255, 255, 0.7)";
+  document.querySelector('.contanory').style.color = "#000";
   darkb.classList.remove("hiden");
   lightb.classList.add("hiden");
   coolbackground2 = setInterval(setRandomBackgroundColor, 1000);
@@ -34,6 +35,8 @@ function lightmode(){
 let coolbackground = sessionStorage.getItem("coolbackground");
 if (coolbackground != "no"){
   coolbackground2 = setInterval(setRandomBackgroundColor, 1000);
+  document.querySelector('.contanory').style.color = "#000";
+  document.querySelector('.contanory').style.backgroundColor = "rgba(255, 255, 255, 0.7)";
 }
 
 if(coolbackground == "no"){
