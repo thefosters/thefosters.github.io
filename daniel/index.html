@@ -20,25 +20,32 @@
             <li><a href="/home.html"><span class="material-symbols-outlined">home</span></a></li>
             <li><a href="/howard/index.html"><span class="material-symbols-outlined">man</span></a></li>
             <li><a href="/jo/index.html"><span class="material-symbols-outlined">woman</span></a></li>
-            <li><a class="active" href="/daniel/index.html"><span class="material-symbols-outlined">man_3</span></a></li>
+            <div class="drop">
+              <li><a class="active" href="/daniel/index.html"><span class="material-symbols-outlined">man_3</span></a></li>
+              <div class="dropstuf">
+                <ul class = "hiden">
+                  <li><a class="active" href="/daniel/index.html"><span class="material-symbols-outlined">home</span></a></li>
+                  <li><a href="/daniel/Todo_ist/index.html"><span class="material-symbols-outlined">lists</span></a></li>
+                  <li><a href="/daniel/Exezive_traker/index.html"><span class="material-symbols-outlined">fitness_center</span></a></li>
+                  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+                </ul>
+              </div>
+            </div>
             <li><a href="/nathan/index.html"><span class="material-symbols-outlined">boy</span></a></li>
             <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
             <li class="right"><a href="/logout.html"><span class="material-symbols-outlined">logout</span></a></li>
             <li class="right"><a style="cursor: pointer;" id = "dark" onclick="darkmode()"><span class="material-symbols-outlined">dark_mode</span></a></li>
             <li class="right"><a style="cursor: pointer;" id = "light" class = "hiden" onclick="lightmode()"><span class="material-symbols-outlined">light_mode</span></a></li>
           </ul>
-          <ul class = "hiden">
-            <li><a class="active" href="/daniel/index.html"><span class="material-symbols-outlined">home</span></a></li>
-            <li><a href="/daniel/Todo_ist/index.html"><span class="material-symbols-outlined">lists</span></a></li>
-            <li><a href="/daniel/Exezive_traker/index.html"><span class="material-symbols-outlined">fitness_center</span></a></li>
-            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-          </ul>
+          
+
+          
         <br>
         <br>
         <h1>hi, i am daniel</h1><h1 style="display: inline;" id = "hi"></h1>
         <hr>
-        <button onclick="window.location.href = '/daniel/Exezive_traker/index.html'">Exercise tracker</button>
-        <button onclick="window.location.href = '/daniel/Todo_ist/index.html'">To do list</button>
+        <button onclick="window.location.href = '/daniel/Exezive_traker/index.html'"><span class="material-symbols-outlined">fitness_center</span></button>
+        <button onclick="window.location.href = '/daniel/Todo_ist/index.html'"><span class="material-symbols-outlined">lists</span></button>
         <button style="cursor: pointer;" onclick="document.querySelector('.background').style.display = 'none'"><span class="material-symbols-outlined">delete</span></button>
         </div>
         <script>
