@@ -32,7 +32,6 @@ function lightmode(){
 }
 
 let coolbackground = sessionStorage.getItem("coolbackground");
-console.log(coolbackground)
 if (coolbackground != "no"){
   coolbackground2 = setInterval(setRandomBackgroundColor, 1000);
 }
