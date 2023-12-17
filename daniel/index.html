@@ -9,26 +9,40 @@
     <!--This is the nav bar styling-->
       <link rel="stylesheet" href="/css/nav.css">
     <link rel="stylesheet" href="/css/cool_background.css">
+
   </head>
   <body>
     <div class="background">
       <div class = "contanory">
         <!--This is the nav bar-->
            <ul>
-             <li><a href="/home.html">Home</a></li>
-             <li><a class="active" href="/daniel/index.html">Daniel</a></li>
-             <li><a href="/nathan/index.html">Nathan</a></li>
-             <li><a href="/jo/index.html">Jo</a></li>
-             <li><a href="/howard/index.html">Howard</a></li>
-             <li class="right"><a href="/logout.html">Logout</a></li>
+            <li><a href="/home.html">Home</a></li>
+            <li><a class="active" href="/daniel/index.html">Daniel</a></li>
+            <li><a href="/nathan/index.html">Nathan</a></li>
+            <li><a href="/jo/index.html">Jo</a></li>
+            <li><a href="/howard/index.html">Howard</a></li>
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+            <li class="right"><a href="/logout.html">Logout</a></li>
+            <li class="right"><a style="cursor: pointer;" id = "dark" onclick="darkmode()"><span class="material-symbols-outlined">dark_mode</span></a></li>
+            <li class="right"><a style="cursor: pointer;" id = "light" class = "hiden" onclick="lightmode()"><span class="material-symbols-outlined">light_mode</span></a></li>
+
+             
           </ul>
         <br>
         <br>
-        <h1>Hi, i am daniel</h1>
+        <h1 id = "hi">Hi,</h1><h1> am daniel</h1>
         <hr>
         <button onclick="window.location.href = '/daniel/Exezive_traker/index.html'">Exercise tracker</button>
         <button onclick="window.location.href = '/daniel/Todo_ist/index.html'">To do list</button>
         </div>
+        <script>
+          function dothing(){
+            const element = document.getElementById("hi");
+            setInterval(function() {element.innerHTML += "hi\n"}, 1000);
+          }
+        </script>
+
+  
 
     </div>
     <script src="/js/coolbackground.js"></script>
