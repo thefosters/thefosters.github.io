@@ -16,6 +16,6 @@ function updateCountdown() {
         var minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
         var seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
 
-        document.getElementById("chrismas_c").innerHTML = `${days}days ${hours}hours ${minutes}minutes ${seconds}seconds`;
+        document.getElementById("chrismas_c").innerHTML = `${days} days, ${hours} hours, ${minutes} minutes, ${seconds} seconds`;
     }
 }
