@@ -4,7 +4,7 @@ var countdownInterval = setInterval(updateCountdown, 1000);
 
 function updateCountdown() {
     var currentDate = new Date().getTime();
-    var timeDifference = targetDate - currentDate;
+    var timeDifference = chrismas_c - currentDate;
 
     if (timeDifference <= 0) {
         clearInterval(countdownInterval);
