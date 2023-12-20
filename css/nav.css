@@ -7,6 +7,14 @@ ul {
 }
 
 .li {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
   float: left;
 }
 .right{
@@ -71,9 +79,7 @@ button:hover {
   margin: 0;
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
-}
+
 
 .dropstuff {
   display: none;
