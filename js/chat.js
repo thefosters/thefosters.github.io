@@ -47,6 +47,9 @@ function chech_do(you) {
   }else if(you == "bye"){
     appendMessage("Tim:", "Bye 👋");
     location.reload();
+  }else{
+    appendMessage("Tim:", "sorry i did not understand");
+    appendMessage("Tim:", "can you reword it");
   }
   
 }
