@@ -46,7 +46,6 @@ function chech_do(you) {
 
   }else if(you == "bye"){
     appendMessage("Tim:", "Bye 👋");
-    await delay(100);
     location.reload();
   }
   
