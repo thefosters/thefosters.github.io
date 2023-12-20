@@ -39,15 +39,15 @@ function chech_do(you) {
 
   }else if(you == "daniel" || you == "nathan" || you == "jo" || you == "howard"){
     appendMessage("Tim:", "Redirecting you to " + you);
-    window.location.href = "/"+you + "/index.html"
+    window.location.href = "/"+you + "/index.html";
 
   }else if(you == "how long till christmas"){
-    updateCountdown()
+    updateCountdown();
 
   }else if(you == "bye"){
     appendMessage("Tim:", "Bye 👋");
     await delay(100);
-    location.reload()
+    location.reload();
   }
   
 }
