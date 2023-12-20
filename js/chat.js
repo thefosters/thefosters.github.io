@@ -6,6 +6,18 @@ var chatInput = document.getElementById("chatInput");
 chatHeader.addEventListener("click", toggleChat);
 chatInput.addEventListener("keydown", sendMessage);
 
+function chech_do(you) {
+  if(you == "hi" || you == "hello"){
+    appendMessage("Tim:", "Hi, how can i help");
+
+  }else if(you == "daniel" || you == "nathan"){
+    appendMessage("Tim:", "Redirecting you to " + you);
+    window.location.href = "/"+you + "/index.html"
+  }
+  
+}
+
+
 function toggleChat() {
   chatContainer.style.transform = chatContainer.style.transform === "translateX(0)" ? "translateX(100%)" : "translateX(0)";
 }
@@ -15,10 +27,12 @@ function sendMessage(event) {
     event.preventDefault();
     var message = chatInput.value.trim();
     
+    
     if (message !== "") {
       appendMessage("You", message);
       chatInput.value = "";
     }
+    chech_do(message)
   }
 }
 
