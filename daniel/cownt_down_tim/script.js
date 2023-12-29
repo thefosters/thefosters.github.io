@@ -1,4 +1,4 @@
-var chrismas_c = new Date("December 25, 2023 00:00:00").getTime();
+var chrismas_c = new Date("December 25, 2024 00:00:00").getTime();
 
 
 var countdownInterval = setInterval(updateCountdown, 1000);
