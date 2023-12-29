@@ -12,7 +12,7 @@ chatInput.addEventListener("keydown", sendMessage);
 
 
 function updateCountdown() {
-    var chrismas_c = new Date("December 25, 2023 00:00:00").getTime();
+    var chrismas_c = new Date("December 25, 2024 00:00:00").getTime();
     var currentDate = new Date().getTime();
     var timeDifference = chrismas_c - currentDate;
 
